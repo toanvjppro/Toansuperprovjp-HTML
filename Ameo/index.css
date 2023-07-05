@@ -1,0 +1,101 @@
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.main-title{
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    height: 100%;
+    margin-top: -15px;
+    margin-left: -4px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+.picture{
+    margin-top: 20px;
+    margin-bottom: -40px;
+    width: 461px;
+    height: 120px;
+    background-color: #333;
+    background-image: url('meo1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.first-title{
+    width: 100%;
+    height: 100%;
+    color: rgb(126, 187, 240);
+}
+.title-menu{
+    background-color: aquamarine;
+
+}
+.second-title{
+    margin-top: -22px;
+    font-size: 10px;
+    color:azure;
+}
+.content-1{
+    color: #363837;
+    font-size: 20px;
+    margin-top: 35px;
+}
+.content-1::first-letter{
+    font-size: 60px;
+}
+.new-news, .old-news, .fun-news, .sad-news, .menu-news{
+    background-color: #333;
+    border-radius: 16px;
+}    
+.new-news:hover, .old-news:hover, .fun-news:hover, .sad-news:hover, .menu-news:hover, .feedback-form:hover{
+    background-color: aqua;
+}
+.link-new, .link-old, .link-fun, .link-sad, .button-menu{
+    color: aliceblue;
+    text-decoration: none;
+}
+.picture-cat{
+    width: 456px;
+    height: 341px;
+    background-image: url('meo2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.content-5, .content-7{
+    color: #363837;
+}
+.news-end{
+    text-align: center;
+    color: rgb(223, 65, 155);
+}
+.feedback{
+    color: #333;
+    font-size: 17px;
+}
+.feedback-form{
+    border-radius: 16px;
+    background-color: #333;
+}
+.feedback-form:active, .new-news:active, .button-menu:active, .sad-news:active, .fun-news:active, .old-news:active{
+    background-color: violet;
+}
+.link-feed{
+    color: #fff;
+    text-decoration: none;
+}
+*::selection{
+    color: violet;
+}
+.relative-recomend{
+    color: violet;
+}
+.relative-content{
+    color: violet;
+}
+.rel-1, .rel-2, .rel-3, .rel-4, .rel-5{
+    text-decoration: none;
+    color: violet;
+}
