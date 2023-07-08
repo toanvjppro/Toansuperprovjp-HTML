@@ -1,0 +1,58 @@
+@media (min-width: 1024px){
+
+
+}
+@media (min-width: 740px) and (max-width: 1023px){
+
+
+}
+@media (max-width: 740px){
+    #navg > li{
+        display: block;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .mobile-menu-button{
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+        font-size: 15px;
+        line-height: 46px;
+        padding: 0 16px;
+        width: 46px;
+        height: 46px;
+    }
+    #header .mobile-menu-button:hover{
+        background-color: #ccc;
+        color: #000;
+    }
+    #header .mobile-menu-button:active{
+        background-color: #ccc;
+    }
+    #navg {
+        display: block;
+    }
+    #navg > li {
+        display: block;
+    }
+    #navg li a{
+        padding: 1px 24px;
+    }
+    #header .search-button{
+        display: none;
+    }
+    #navg > li:first-child{
+        display: inline-block;
+    }  
+    #navg .subnavg{
+        position: initial;
+        background-color: rgba(59, 58, 58, 0.77);
+    }
+    #navg .subnavg a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+}
